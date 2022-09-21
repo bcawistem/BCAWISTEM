@@ -1,0 +1,30 @@
+html {
+    background-color: #a3db9a;
+    font-family: Libre Franklin;
+}
+h1 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: .1em;
+    line-height: 1.7em;
+    text-transform: none;
+}
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+#gendermin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    margin-left: 30px;
+    font-size: 24pt;
+    text-decoration: underline;
+}
