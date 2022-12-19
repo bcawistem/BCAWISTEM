@@ -91,3 +91,13 @@ h2 {
         font-size: 5em;
     }
 }
+
+#board {
+    font-size: 10em;
+    text-align: center;
+    margin: 3em;
+    
+.boardpics {
+    display: flex;
+    margin: 5em;
+}
