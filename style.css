@@ -7,6 +7,10 @@ body {
     color: #4dd0e1;
 }
 
+nav {
+    text-align: right;
+}
+
 .navbar {
     list-style-type: none;
     background-color: #4DD0E1;
@@ -14,13 +18,17 @@ body {
 }
 
 .navlist {
+    display: inline;
     padding: 1em;
 }
 
 .navlist a {
     text-decoration: none;
     color: #FDC5F5;
-    text-align: right;
+}
+
+navlist a:hover {
+    background-color: #ffe8e8;
 }
 
 .one {
