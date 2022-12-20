@@ -7,6 +7,18 @@ body {
     color: #4dd0e1;
 }
 
+.navbar {
+    list-style-type: none;
+    background-color: #4DD0E1;
+}
+
+.navlist {
+    display: inline;
+    margin: 2em;
+    color: #FDC5F5;
+    text-align: right;
+}
+
 .one {
     margin: 0;
     padding: 0;
