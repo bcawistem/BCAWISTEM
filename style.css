@@ -27,7 +27,7 @@ nav {
     color: #FDC5F5;
 }
 
-navlist a:hover {
+.navlist a:hover {
     background-color: #ffe8e8;
 }
 
