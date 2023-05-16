@@ -5,6 +5,7 @@ html {
 
 body {
     color: #4dd0e1;
+    margin: 0em;
 }
 
 nav {
@@ -15,6 +16,8 @@ nav {
     list-style-type: none;
     background-color: #4DD0E1;
     padding: 1.5em;
+    padding-left: 10em;
+    margin-top: 0em;
 }
 
 .navlist {
@@ -29,6 +32,7 @@ nav {
 
 .navlist a:hover {
     background-color: #ffe8e8;
+    padding: 1.5em;
 }
 
 .one {
@@ -117,11 +121,57 @@ h2 {
 }
 
 #board {
-    font-size: 10em;
+    font-size: 5em;
     text-align: center;
-    margin: 3em;
-    
-.boardpics {
-    display: flex;
-    margin: 5em;
+    margin: 1em;
+    margin-bottom: 0em;
 }
+
+.what {
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    margin-top: 1em;
+}
+
+.what3 {
+    display: flex;
+    justify-content: center;
+    gap: 15em;
+    margin-top: 1em;
+}
+
+.boardpics img{
+    width: 30em;
+    height: 25em;
+    margin: 1em;
+    margin-right: 5em;
+    object-fit: contain;
+}
+
+.description {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 1.2em;
+    margin-top: 0.5em;
+    padding-left: 1em;
+}
+
+.stats{
+    margin-left: 4em;
+}
+
+.mdescription {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 0em;
+    margin-top: 0.5em;
+    margin-right: 3.5em;
+    padding-left: 1em;
+}
+
+.mstats{
+    margin-left: 3em;
+}
+
+
