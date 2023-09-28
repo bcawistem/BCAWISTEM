@@ -1,0 +1,175 @@
+html {
+    background-color: #ffe8e8;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    color: #4dd0e1;
+    margin: 0em;
+}
+
+nav {
+    text-align: right;
+}
+
+.navbar {
+    list-style-type: none;
+    background-color: #4DD0E1;
+    padding: 1.5em;
+    padding-left: 10em;
+    margin-top: 0em;
+}
+
+.navlist {
+    display: inline;
+    padding: 1em;
+}
+
+.navlist a {
+    text-decoration: none;
+    color: #FDC5F5;
+}
+
+.navlist a:hover {
+    background-color: #ffe8e8;
+    padding: 1.5em;
+}
+
+.one {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+h1 {
+    font-size: 3.7em;
+}
+
+#gendermin {
+    font-size: 1.4em;
+}
+
+p, li {
+    line-height: 130%;
+}
+
+p, a {
+    padding-left: 2%;
+}
+
+a {
+    color: inherit;
+}
+
+.GIFt {
+ 
+    margin: 0;
+    padding: 0;
+}
+
+/* h1 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: .1em;
+    line-height: 1.7em;
+    text-transform: none;
+}
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+#gendermin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */
+h2 {
+    margin-left: 30px;
+    font-size: 24pt;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 900px) {
+    .yas {
+        width: 140%;
+    }
+
+    ul {
+        width: 100%;
+    }
+
+    .one {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .sned-help {
+        padding-left: 5%;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+}
+
+#board {
+    font-size: 5em;
+    text-align: center;
+    margin: 1em;
+    margin-bottom: 0em;
+}
+
+.what {
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    margin-top: 1em;
+}
+
+.what3 {
+    display: flex;
+    justify-content: center;
+    gap: 15em;
+    margin-top: 1em;
+}
+
+.boardpics img{
+    width: 30em;
+    height: 25em;
+    margin: 1em;
+    margin-right: 5em;
+    object-fit: contain;
+}
+
+.description {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 1.2em;
+    margin-top: 0.5em;
+    padding-left: 1em;
+}
+
+.stats{
+    margin-left: 4em;
+}
+
+.mdescription {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 0em;
+    margin-top: 0.5em;
+    margin-right: 3.5em;
+    padding-left: 1em;
+}
+
+.mstats{
+    margin-left: 3em;
+}
